@@ -14,7 +14,14 @@ Uses `yt-dlp` for searching and downloading, and `ffmpeg` to convert audio to 48
 
 ## Installation
 
-Clone the repo and add it to your load path:
+With `straight.el` and `use-package`:
+
+```elisp
+(use-package emacs-playlist
+  :straight (:host github :repo "noonker/emacs-playlist"))
+```
+
+Or clone the repo and add it to your load path:
 
 ```elisp
 (add-to-list 'load-path "~/git/emacs-playlist")
